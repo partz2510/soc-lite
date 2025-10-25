@@ -132,7 +132,7 @@ Python · Rich · JSON · Requests · dotenv · psutil · YAML
 
 ## 👨‍💻 Author
 
-Parthiban Ganesan
+Parthiban Ganesan Cybersecurity & Cloud Enthusiast
 
 
 
