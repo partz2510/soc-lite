@@ -51,7 +51,7 @@ Stage	Module	Description
          │  Generates SOC Summary     │
          └────────────────────────────┘
 
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 ``` bash
 # 1️⃣ Clone the repository
 git clone https://github.com/<your-username>/soc-lite.git
@@ -73,7 +73,7 @@ Create a .env file in the project root (optional for enrichment):
 VT_API_KEY=your_virustotal_api_key
 ```
 
-🧩 Run Individual Modules
+## 🧩 Run Individual Modules
 
 You can run any module standalone:
 ``` bash
@@ -84,7 +84,7 @@ python src/compliance_checker.py
 python src/ir_automator.py
 ```
 
-🧠 Full SOC Pipeline
+## 🧠 Full SOC Pipeline
 
 Run the orchestrator to execute the complete workflow:
 
@@ -95,26 +95,10 @@ python src/main.py
 
 ✅ Expected Output:
 
-──────────────────────────── SOC-Lite — Mini Security Operations Center ────────────────────────────
-1️⃣ Running File Integrity Module...
-2️⃣ Running Log Analysis...
-3️⃣ Running Threat Intelligence Lookup...
-4️⃣ Running Compliance Check...
-5️⃣ Generating Incident Response Summary...
 
-✅ SOC-Lite Run Complete! Summary below:
-• Integrity Findings: 0
-• Log Alerts: 6
-• Intel Results: 2
-• Compliance Issues: 1
-Report saved in /reports folder.
 
 📁 Project Structure
 
-
-🧠 Example Output Screenshot
-
-(Insert screenshot here — run python src/main.py and screenshot the full console.)
 
 🚀 Key Skills Demonstrated
 
@@ -128,11 +112,12 @@ Report saved in /reports folder.
 
 5. Incident Response Reporting using rich for visual summaries
 
-📚 Tech Stack
+
+## 📚 Tech Stack
 
 Python · Rich · JSON · Requests · dotenv · psutil · YAML
 
-🧩 Future Enhancements
+## 🧩 Future Enhancements
 
 1. Integrate Splunk / ELK ingestion via API
 
@@ -142,8 +127,9 @@ Python · Rich · JSON · Requests · dotenv · psutil · YAML
 
 4. Export reports to PDF or dashboard view
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Parthiban Ganesan
+
 
 
