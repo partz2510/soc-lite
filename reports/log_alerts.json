@@ -1,0 +1,26 @@
+[
+  {
+    "alert": "Failed Login",
+    "log": "2025-10-25 12:05:21 - User=Admin - Failed login from 45.76.34.12 Port 22"
+  },
+  {
+    "alert": "Suspicious Port",
+    "log": "2025-10-25 12:05:21 - User=Admin - Failed login from 45.76.34.12 Port 22"
+  },
+  {
+    "alert": "External Connection",
+    "log": "2025-10-25 12:05:21 - User=Admin - Failed login from 45.76.34.12 Port 22"
+  },
+  {
+    "alert": "Suspicious Port",
+    "log": "2025-10-25 12:15:30 - User=Admin - Successful login from 8.8.8.8 Port 3389"
+  },
+  {
+    "alert": "External Connection",
+    "log": "2025-10-25 12:15:30 - User=Admin - Successful login from 8.8.8.8 Port 3389"
+  },
+  {
+    "alert": "External Connection",
+    "log": "2025-10-25 12:20:45 - User=Root - File modified /etc/passwd"
+  }
+]

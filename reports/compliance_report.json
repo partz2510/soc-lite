@@ -1,0 +1,26 @@
+[
+  {
+    "policy": "Password Length \u2265 12",
+    "status": "Compliant"
+  },
+  {
+    "policy": "2FA Enabled",
+    "status": "Non-Compliant"
+  },
+  {
+    "policy": "Firewall Active",
+    "status": "Compliant"
+  },
+  {
+    "policy": "Audit Logging Enabled",
+    "status": "Compliant"
+  },
+  {
+    "policy": "Guest Account Disabled",
+    "status": "Compliant"
+  },
+  {
+    "policy": "OS Patching Up-to-date",
+    "status": "Compliant"
+  }
+]

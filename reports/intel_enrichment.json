@@ -1,0 +1,12 @@
+[
+  {
+    "ip": "8.8.8.8",
+    "reputation": "malicious",
+    "source": "OTX"
+  },
+  {
+    "ip": "45.76.34.12",
+    "reputation": "clean",
+    "source": "OTX"
+  }
+]

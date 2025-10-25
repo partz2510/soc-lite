@@ -1,0 +1,77 @@
+{
+  "timestamp": "2025-10-25T11:35:39.798158",
+  "findings": {
+    "fim": {
+      "src\\compliance_checker.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src\\fim_module.py": "13b0b1e1efb4696c7b88e630af5cf0870496677cb4e0b133451527d9e16f80a5",
+      "src\\intel_lookup.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src\\ir_automator.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src\\log_parser.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src\\main.py": "a2ff8c6299498d73c4299ca78588aa49aea2e2ed8a6b872afebd437d467d4d0a"
+    },
+    "alerts": [
+      {
+        "alert": "Failed Login",
+        "log": "2025-10-25 12:05:21 - User=Admin - Failed login from 45.76.34.12 Port 22"
+      },
+      {
+        "alert": "Suspicious Port",
+        "log": "2025-10-25 12:05:21 - User=Admin - Failed login from 45.76.34.12 Port 22"
+      },
+      {
+        "alert": "External Connection",
+        "log": "2025-10-25 12:05:21 - User=Admin - Failed login from 45.76.34.12 Port 22"
+      },
+      {
+        "alert": "Suspicious Port",
+        "log": "2025-10-25 12:15:30 - User=Admin - Successful login from 8.8.8.8 Port 3389"
+      },
+      {
+        "alert": "External Connection",
+        "log": "2025-10-25 12:15:30 - User=Admin - Successful login from 8.8.8.8 Port 3389"
+      },
+      {
+        "alert": "External Connection",
+        "log": "2025-10-25 12:20:45 - User=Root - File modified /etc/passwd"
+      }
+    ],
+    "intel": [
+      {
+        "ip": "8.8.8.8",
+        "reputation": "malicious",
+        "source": "OTX"
+      },
+      {
+        "ip": "45.76.34.12",
+        "reputation": "clean",
+        "source": "OTX"
+      }
+    ],
+    "compliance": [
+      {
+        "policy": "Password Length \u2265 12",
+        "status": "Compliant"
+      },
+      {
+        "policy": "2FA Enabled",
+        "status": "Non-Compliant"
+      },
+      {
+        "policy": "Firewall Active",
+        "status": "Compliant"
+      },
+      {
+        "policy": "Audit Logging Enabled",
+        "status": "Compliant"
+      },
+      {
+        "policy": "Guest Account Disabled",
+        "status": "Compliant"
+      },
+      {
+        "policy": "OS Patching Up-to-date",
+        "status": "Compliant"
+      }
+    ]
+  }
+}
