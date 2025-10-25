@@ -20,7 +20,8 @@ Stage	Module	Description
 
 🚨 5. Incident Response	ir_automator.py	Aggregates all findings into a single JSON summary and rich-table report.
 
-🧠 Architecture Diagram
+
+## 🧠 Architecture Diagram
 
          ┌────────────────────────────┐
          │       FIM Module           │
@@ -132,6 +133,7 @@ Python · Rich · JSON · Requests · dotenv · psutil · YAML
 ## 👨‍💻 Author
 
 Parthiban Ganesan
+
 
 
 
