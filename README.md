@@ -95,12 +95,16 @@ python src/main.py
 
 ✅ Expected Output:
 
+!(SOC Summary-lite Report part 1)[https://github.com/partz2510/soc-lite/blob/main/Screenshot/SOC%20Lite%201.png?raw=true]
 
 
-📁 Project Structure
+!(SOC Summary-lite Report part 2)[https://github.com/partz2510/soc-lite/blob/main/Screenshot/SOC%20Lite%202.png?raw=true]
 
 
-🚀 Key Skills Demonstrated
+
+
+
+## 🚀 Key Skills Demonstrated
 
 1. Security Automation using modular Python scripting
 
@@ -130,6 +134,7 @@ Python · Rich · JSON · Requests · dotenv · psutil · YAML
 ## 👨‍💻 Author
 
 Parthiban Ganesan
+
 
 
 
